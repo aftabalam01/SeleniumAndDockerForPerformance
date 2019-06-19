@@ -1,0 +1,11 @@
+aws:
+  perf:
+    perf_metric_sqs_url: "https://sqs.us-west-2.amazonaws.com/<accountnumber>/eats_browser_performance_queue"
+    perf_metric_s3: browser-performance-bucket"
+    region: "us-west-2"
+    navigation_timing: True
+    profiler_log: False
+logging:
+  level: 'INFO'
+default_env: 'perf'
+performance_enable: True
